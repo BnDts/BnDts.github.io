@@ -62,7 +62,7 @@ box-sizing: border-box;
     border-radius: 50%;
 }
 
-#social-conteiner{
+#social-container{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -71,29 +71,29 @@ box-sizing: border-box;
     padding-bottom: 25px;
 
 }
-#social-conteiner li{
+#social-container li{
     flex: 1 1 0;
     max-width: 60px;
 }
-#social-conteiner li a{
+#social-container li a{
     color: var(--main-color);
     font-size: 30px;
 }
 
-#email-conteiner{
+#email-container{
     display: flex;
     justify-content: center;
 }
-#email-conteiner ion-icon,
-#email-conteiner a{
+#email-container ion-icon,
+#email-container a{
     flex: 1 1 0;
 }
-#email-conteiner a{
+#email-container a{
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
 }
-#email-conteiner ion-icon{
+#email-container ion-icon{
     color: var(--main-color);
     font-size: 20px;
     margin-right: 5px;
@@ -151,13 +151,13 @@ box-sizing: border-box;
     flex-wrap: wrap;
     margin-top: 25px;
 }
-.skill-box{
+.skills-box{
     flex: 1 1 33%;
     max-width: 33%;
     margin-bottom: 35px;
 
 }
-.skill-tittle{
+.skills-tittle{
     font-size: 24;
     margin-bottom: 25px;
     font-weight: bold;
@@ -165,7 +165,7 @@ box-sizing: border-box;
     border-left:  5px solid var(--main-color);
 
 }   
-.skill-box i{
+.skills-box i{
     font-size: 45px;
     margin-right: 10px;
 }
